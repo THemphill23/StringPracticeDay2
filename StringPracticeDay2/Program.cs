@@ -11,7 +11,14 @@ namespace StringPracticeDay2
             //string firstName;
             string firstName = Console.ReadLine();
 
-            Console.WriteLine("Your name is: " + firstName);
+            //Console.WriteLine("Your name is: " + firstName);
+
+            Console.WriteLine("What is your last name?");
+
+            string lastName = Console.ReadLine();
+
+            Console.WriteLine("Your name is: " + firstName.ToLower() + " " + lastName.ToLower());
+            //firstName.ToLower();
         }
     }
 }
